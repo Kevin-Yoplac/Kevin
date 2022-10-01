@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <section>
+        <form action="procesar.php" method="get">
+            <table>
+                <tbody>
+                    <!-- <tr>
+                        <td>
+                            Nombre
+                        </td>
+                        <td>
+                            <input type="text" name="nombre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Edad</td>
+                        <td>
+                            <input type="number" min="0" max="100" name="edad">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DNI</td>
+                        <td>
+                            <input type="text" name="dni" id="dni" minlength="8" maxlength="8">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Telefono</td>
+                        <td>
+                            <input type="tel" name="telefono" id="telefono">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Correo</td>
+                        <td>
+                            <input type="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pagina Web</td>
+                        <td>
+                            <input type="url" name="pagina" id="pagina">
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td>Sexo</td>
+                        <td>
+                            <p>
+                                <input type="radio" name="sexo" value="machito">
+                                <label>masculino</label>
+                            </p>
+                            <p>
+                                <input type="radio" name="sexo" value="hembrita">
+                                <label>femenino</label>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Seleccione</td>
+                        <td>
+                            <p>A. Primera Alternativa<input type="radio" name="alternativa" value="a"></p>
+                            <p>B. Segunda Alternativa<input type="radio" name="alternativa" value="b"></p>
+                            <p>C. Tercera Alternativa<input type="radio" name="alternativa" value="c"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Generos Musicales</td>
+                        <td>
+                            <p>
+                                <input type="checkbox" name="generos[]" value="Balada">Baladas
+                            </p>
+                            <p>
+                                <input type="checkbox" name="generos[]" value="Salsa" >Salsa
+                            </p>
+                            <p>
+                                <input type="checkbox" name="generos[]" value="Disco">Disco
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p><input type="submit" value="Procesar"></p>
+        </form>
+    </section>
+</body>
+</html>
